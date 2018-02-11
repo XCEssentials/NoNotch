@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name                      = 'XCENoNotch'
   s.summary                   = 'Make iPhone X notch elegantly disappear in your app.'
-  s.version                   = '1.0.0'
+  s.version                   = '1.0.1'
   s.homepage                  = 'https://XCEssentials.github.io/NoNotch'
 
   s.source                    = { :git => 'https://github.com/XCEssentials/NoNotch.git', :tag => s.version }
