@@ -13,13 +13,4 @@ abstract_target 'Common' do
 
     end
 
-    target 'NoNotchTests' do
-
-        project 'NoNotch'
-        platform :ios, '10.0'
-
-        pod 'XCETesting', '~> 1.2'
-
-    end
-
 end
