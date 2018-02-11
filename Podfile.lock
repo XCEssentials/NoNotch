@@ -1,0 +1,15 @@
+PODS:
+  - XCERequirement (1.6.0)
+  - XCETesting (1.2.0):
+    - XCERequirement (~> 1.5)
+
+DEPENDENCIES:
+  - XCETesting (~> 1.2)
+
+SPEC CHECKSUMS:
+  XCERequirement: 4dbe5a3e19b4784dc3c6943ec9b929e7f7dd7ff5
+  XCETesting: d675bc94b51d9deff7c628b0e77aebdac306e591
+
+PODFILE CHECKSUM: 7da70945d2c527c0808077a88b41a79d1fc20af6
+
+COCOAPODS: 1.3.1

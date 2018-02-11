@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EEC7BE4D766F7E87260AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5A4A7BE66AE62D82DE17DC /* Foundation.framework */; };
+		401C094B721BA1091683791C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ECF8BFCB0B3E443B14989 /* Main.swift */; };
+		69ABC729BB2D3B30550CC98A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5A4A7BE66AE62D82DE17DC /* Foundation.framework */; };
+		6E95EB6BF1F88AAC64E735FF /* Pods_Common_NoNotchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBEE437DFDD13693238A4E8 /* Pods_Common_NoNotchTests.framework */; };
+		86D3338EA1592E478C5832F8 /* Pods_Common_NoNotch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DD9A1444F021665C71086 /* Pods_Common_NoNotch.framework */; };
+		FDE2F7CE496CEF74B7313053 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D0F57C19481D5442361329 /* Main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55289A34FA431F7707723E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76C2B6FF31C2B1533202A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037F107F703BD8401C2764E1;
+			remoteInfo = NoNotch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14D691BC96EBF9D110F4678D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAD3BE2C08038B5F95A4BA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D8DD9A1444F021665C71086 /* Pods_Common_NoNotch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_NoNotch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381C47085F8469E73BD119A0 /* NoNotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoNotchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E693E3E4528FADD7E5D5B97 /* Pods-Common-NoNotchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-NoNotchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-NoNotchTests/Pods-Common-NoNotchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		458A558CB299ADD62D674BC3 /* NoNotch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NoNotch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A4A7BE66AE62D82DE17DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63F462B26A2234F704B5A58A /* Pods-Common-NoNotch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-NoNotch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-NoNotch/Pods-Common-NoNotch.release.xcconfig"; sourceTree = "<group>"; };
+		83FF4605AD6F593608B43309 /* Pods-Common-NoNotch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-NoNotch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-NoNotch/Pods-Common-NoNotch.debug.xcconfig"; sourceTree = "<group>"; };
+		87D0F57C19481D5442361329 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		CBBEE437DFDD13693238A4E8 /* Pods_Common_NoNotchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_NoNotchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36ECF8BFCB0B3E443B14989 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E6FA44FF57A027612EB9BEEF /* Pods-Common-NoNotchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-NoNotchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-NoNotchTests/Pods-Common-NoNotchTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FE47CB90FF123636B87DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ABC729BB2D3B30550CC98A /* Foundation.framework in Frameworks */,
+				86D3338EA1592E478C5832F8 /* Pods_Common_NoNotch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A79816498F76CFE5D2FED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EEC7BE4D766F7E87260AF3 /* Foundation.framework in Frameworks */,
+				6E95EB6BF1F88AAC64E735FF /* Pods_Common_NoNotchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100214CE53DC4A7C23F230F1 /* NoNotchTests */ = {
+			isa = PBXGroup;
+			children = (
+				87D0F57C19481D5442361329 /* Main.swift */,
+			);
+			name = NoNotchTests;
+			path = NoNotchTests;
+			sourceTree = "<group>";
+		};
+		104194D9B96D737FD93B12AD /* $local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "$local";
+			sourceTree = "<group>";
+		};
+		20B7580B8F273D95CD1363EF /* NoNotch */ = {
+			isa = PBXGroup;
+			children = (
+				E36ECF8BFCB0B3E443B14989 /* Main.swift */,
+			);
+			name = NoNotch;
+			path = NoNotch;
+			sourceTree = "<group>";
+		};
+		33774599EEB46DC8E652F645 = {
+			isa = PBXGroup;
+			children = (
+				E013EBCC454DFD6310DFFAB5 /* Frameworks */,
+				C708BFD12127BDF1E392241A /* Pods */,
+				E07DD1810FCD4C4790DCEBC8 /* Products */,
+				CE6CDC6B0D88A8F7B1B7CF93 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		90FB1215DBE86577EA0122B2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A4A7BE66AE62D82DE17DC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C708BFD12127BDF1E392241A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83FF4605AD6F593608B43309 /* Pods-Common-NoNotch.debug.xcconfig */,
+				63F462B26A2234F704B5A58A /* Pods-Common-NoNotch.release.xcconfig */,
+				3E693E3E4528FADD7E5D5B97 /* Pods-Common-NoNotchTests.debug.xcconfig */,
+				E6FA44FF57A027612EB9BEEF /* Pods-Common-NoNotchTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE6CDC6B0D88A8F7B1B7CF93 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				20B7580B8F273D95CD1363EF /* NoNotch */,
+				100214CE53DC4A7C23F230F1 /* NoNotchTests */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E013EBCC454DFD6310DFFAB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104194D9B96D737FD93B12AD /* $local */,
+				90FB1215DBE86577EA0122B2 /* iOS */,
+				0D8DD9A1444F021665C71086 /* Pods_Common_NoNotch.framework */,
+				CBBEE437DFDD13693238A4E8 /* Pods_Common_NoNotchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07DD1810FCD4C4790DCEBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458A558CB299ADD62D674BC3 /* NoNotch.framework */,
+				381C47085F8469E73BD119A0 /* NoNotchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037F107F703BD8401C2764E1 /* NoNotch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8527A6C6E710891FC27845 /* Build configuration list for PBXNativeTarget "NoNotch" */;
+			buildPhases = (
+				084D4D0BD3B51DA05FC8A3F2 /* SwiftLint */,
+				38385F267DADC05E2539640D /* [CP] Check Pods Manifest.lock */,
+				C091C169034E64A71205BCDC /* Sources */,
+				40FE47CB90FF123636B87DA0 /* Frameworks */,
+				14D691BC96EBF9D110F4678D /* Embed Frameworks */,
+				63FC917764E374F74F652F3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoNotch;
+			productName = NoNotch;
+			productReference = 458A558CB299ADD62D674BC3 /* NoNotch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A5A27F745E2F87E2AF109B2 /* NoNotchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6933EB29815D6E85B6B2CD77 /* Build configuration list for PBXNativeTarget "NoNotchTests" */;
+			buildPhases = (
+				BE2571AB8C434873D0EC0977 /* SwiftLint */,
+				2C1E562FBEEED475232891DF /* [CP] Check Pods Manifest.lock */,
+				FC2FDAED240799C20AADFDB8 /* Sources */,
+				C8A79816498F76CFE5D2FED1 /* Frameworks */,
+				AEAD3BE2C08038B5F95A4BA2 /* Embed Frameworks */,
+				54EA0C70F97D81A699812E4A /* [CP] Embed Pods Frameworks */,
+				20A4C1646C74F7AABC8785FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D9335FF6AB1D5DC3A45943 /* PBXTargetDependency */,
+			);
+			name = NoNotchTests;
+			productName = NoNotchTests;
+			productReference = 381C47085F8469E73BD119A0 /* NoNotchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E76C2B6FF31C2B1533202A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				Struct.Version = 2.1.0;
+			};
+			buildConfigurationList = 7EB323D5AA2B6DDC9E5C0E64 /* Build configuration list for PBXProject "NoNotch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33774599EEB46DC8E652F645;
+			productRefGroup = E07DD1810FCD4C4790DCEBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037F107F703BD8401C2764E1 /* NoNotch */,
+				7A5A27F745E2F87E2AF109B2 /* NoNotchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084D4D0BD3B51DA05FC8A3F2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
+			showEnvVarsInLog = 1;
+		};
+		20A4C1646C74F7AABC8785FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-NoNotchTests/Pods-Common-NoNotchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1E562FBEEED475232891DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-NoNotchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38385F267DADC05E2539640D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-NoNotch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54EA0C70F97D81A699812E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Common-NoNotchTests/Pods-Common-NoNotchTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XCERequirement/XCERequirement.framework",
+				"${BUILT_PRODUCTS_DIR}/XCETesting/XCETesting.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCERequirement.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCETesting.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-NoNotchTests/Pods-Common-NoNotchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FC917764E374F74F652F3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-NoNotch/Pods-Common-NoNotch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE2571AB8C434873D0EC0977 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C091C169034E64A71205BCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401C094B721BA1091683791C /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2FDAED240799C20AADFDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE2F7CE496CEF74B7313053 /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86D9335FF6AB1D5DC3A45943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NoNotch;
+			target = 037F107F703BD8401C2764E1 /* NoNotch */;
+			targetProxy = F55289A34FA431F7707723E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07893EBC1346E795254AC24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E693E3E4528FADD7E5D5B97 /* Pods-Common-NoNotchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				INFOPLIST_FILE = Info/NoNotchTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = true;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XCEssentials.NoNotch.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		23F7271B37813D935DD0F739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6DCC53D245A958DB923FE793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FA44FF57A027612EB9BEEF /* Pods-Common-NoNotchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				INFOPLIST_FILE = Info/NoNotchTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.XCEssentials.NoNotch.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C1DF0BD81637CC6D20B10C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FF4605AD6F593608B43309 /* Pods-Common-NoNotch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 0;
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Info/NoNotch.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = true;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XCEssentials.NoNotch;
+				PRODUCT_NAME = XCENoNotch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECC7CCA6E78FB5D1FF9ADEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F462B26A2234F704B5A58A /* Pods-Common-NoNotch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 0;
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Info/NoNotch.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.XCEssentials.NoNotch;
+				PRODUCT_NAME = XCENoNotch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F79ADA108EA9527697CA3C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6933EB29815D6E85B6B2CD77 /* Build configuration list for PBXNativeTarget "NoNotchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07893EBC1346E795254AC24D /* Debug */,
+				6DCC53D245A958DB923FE793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB323D5AA2B6DDC9E5C0E64 /* Build configuration list for PBXProject "NoNotch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7271B37813D935DD0F739 /* Debug */,
+				F79ADA108EA9527697CA3C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC8527A6C6E710891FC27845 /* Build configuration list for PBXNativeTarget "NoNotch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DF0BD81637CC6D20B10C00 /* Debug */,
+				ECC7CCA6E78FB5D1FF9ADEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E76C2B6FF31C2B1533202A58 /* Project object */;
+}
